@@ -1,5 +1,6 @@
+// require the Product model from models folder
 const { Product } = require('../models');
-
+// create variable to list the bullk data
 const productData = [
   {
     product_name: 'Plain T-Shirt',
@@ -32,7 +33,7 @@ const productData = [
     category_id: 2,
   },
 ];
-
+// create function to bulk create seed data from productData using Product model into database
 const seedProducts = () => Product.bulkCreate(productData);
-
+// export function module
 module.exports = seedProducts;

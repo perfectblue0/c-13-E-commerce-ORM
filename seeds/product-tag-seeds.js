@@ -1,5 +1,6 @@
+// require the ProductTag model from the models folder
 const { ProductTag } = require('../models');
-
+// list of data in a variable array
 const productTagData = [
   {
     product_id: 1,
@@ -50,7 +51,7 @@ const productTagData = [
     tag_id: 3,
   },
 ];
-
+// create function to bulk create seed data from productTagData using ProductTag model. 
 const seedProductTags = () => ProductTag.bulkCreate(productTagData);
-
+// export function module
 module.exports = seedProductTags;
