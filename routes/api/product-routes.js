@@ -114,7 +114,6 @@ router.put("/:id", (req, res) => {
           ]);
         });
       }
-
       return res.json(product);
     })
     .catch((err) => {
