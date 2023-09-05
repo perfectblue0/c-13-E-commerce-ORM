@@ -17,7 +17,7 @@ To be able to use this application users should clone the repo in a folder and o
 
 ### View Functionality:
 
-[Video]()
+[Video](https://drive.google.com/file/d/1-4bDZS_Mn9vMhDMPVB7--ldy7Xi3xPcf/view)
 
 ### View Repo:
 
