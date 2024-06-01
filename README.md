@@ -2,7 +2,7 @@
 
 ## Description
 
-UC Berkeley FullStack Coding Bootcamp provided starter code and I helped build the back end for this e-commerce site that uses Sequelize to interact with a MySQL database. I contributed to this starter code to improve my understanding of the architecture of e-commerce sites. This application is not deployed and its functionality can be seen in the video link below.
+This project consisted of working on the back-end of an e-commerce website that uses Sequelize to interact with a MySQL database. After connecting to the database with Sequelize, users can enter the schema and seed commands which will create and seed a development database. After users start the server they can use Insomnia to test out the GET routes for categories, products, or tags which will display the data for each category in formatted JavaScript Object Notation (JSON). Users can test API POST, PUT, and DELETE routes in Insomnia which will create, update, and delete data in the database. This application is not deployed and its functionality can be seen in the video link below.
 
 ## Table of Contents
 
